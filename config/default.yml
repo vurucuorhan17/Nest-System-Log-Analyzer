@@ -1,0 +1,11 @@
+db:
+    type: "postgres"
+    host: "localhost"
+    port: 5432
+    database: "loganalyzer-db"
+    username: "postgres"
+    password: "test123"
+    synchronize: true
+    
+server:
+    port: 3000
